@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #530b8a, #9198e5);
+}
+
+.container {
+  min-height: 100vh;
+}
+
+.container .heading {
+  margin-top: 10%;
+  line-height: 5rem;
+  margin-left: 5%;
+}
+
+.container .heading h1 {
+  font-size: 4.5rem;
+}
+
+.heading #jsh {
+  color: #fff;
+}
+
+.heading #ach {
+  color: #e3de44;
+}
+
+.main-block {
+  height: 20%;
+  width: 50%;
+  background-color: rgba(235, 237, 240, 0.7);
+  box-sizing: border-box;
+  margin-left: 80px;
+  margin-top: 50px;
+  border-radius: 40px;
+  padding: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#dob {
+  flex: 1;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  outline: 0;
+  border: 0;
+  border-radius: 13px;
+  cursor: pointer;
+  font-size: 1.4rem;
+  padding: 16px 94px;
+}
+
+/* .DOB input::-webkit-calendar-picker-indicator {
+  top: 0;
+  left: 90%;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  height: auto;
+  position: absolute;
+  background-position: calc(100% - 10px);
+  background-size: 30px;
+} */
+
+
+.calculate button {
+  box-sizing: border-box;
+  background-color: yellow;
+  color: black;
+  padding: 16px 24px;
+  text-align: center;
+  font-size: 1.3rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 13px;
+}
+.your_age {
+  color: #fff;
+  font-size: 1.8rem;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .container .heading h1 {
+    font-size: 2.5rem;
+    line-height: 44px;
+  }
+
+  .main-block {
+    background-color: rgba(235, 237, 240, 0.7);
+    box-sizing: border-box;
+    margin: 90px 5px;
+    width: auto;
+    border-radius: 40px;
+    padding: 45px;
+    flex-wrap: wrap;
+  }
+
+  #dob {
+    background-color: #fff;
+    outline: 0;
+    border: 0;
+    border-radius: 13px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: 16px 44px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+  }
+  .calculate button {
+    background-color: yellow;
+    color: black;
+    padding: 16px 24px;
+    text-align: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: 0;
+    border-radius: 13px;
+    margin-left: 90px;
+  }
+  .your_age {
+    color: #fff;
+    font-size: 1em;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+}
